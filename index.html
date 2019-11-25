@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
     $msg = '';
     $msgClass= '';
     if(filter_has_var(INPUT_POST, 'submit')){
@@ -42,7 +42,7 @@
             $msgClass = 'rilert';
         }
     }
-?>
+?> -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -71,9 +71,9 @@
 
 <nav class="nav-bar">
     <ul class="nav-list">
-        <a href="index.php#sectionIntro"><li><span>Home</span></li></a>
-        <a href="index.php#sectionAbout"><li><span>Service</span></li></a>
-        <a href="index.php#sectionForm"><li><span>Contact</span></li></a>
+        <a href="index.html#sectionIntro"><li><span>Home</span></li></a>
+        <a href="index.html#sectionAbout"><li><span>Service</span></li></a>
+        <a href="index.html#sectionForm"><li><span>Contact</span></li></a>
         <a target="_blank" href="https://medium.com/@WebSoar"><li><span>Blog</span></li></a>
     </ul>
 
@@ -91,14 +91,14 @@
 
   </script>
 
-<?php if($msg != ''): ?>
+<!-- <?php if($msg != ''): ?>
 
 <div class="<?php echo $msgClass; ?>"> <span><?php echo $msg; ?></span> <button onclick="closeBtn()">X</button></div>
 <script>setTimeout(function(){
     $('.rilert button').click()
 },5000)
 </script>
-<?php endif; ?>
+<?php endif; ?> -->
 <!--
 ============
 INTRODUCTION
@@ -143,7 +143,7 @@ INTRODUCTION
             <div class="content-description"><span>Take to the skies. Find out more about WebSoar</span></div>
             <div class="content-buttons"> <div class="buttons-wrapper"><a href="index.html#sectionBrief"><div><span>about</span></div></a>
 
-                <a href="index.php#sectionForm"><div><span>contact</span></div></a></div></div>
+                <a href="index.html#sectionForm"><div><span>contact</span></div></a></div></div>
 
         </div>
     </div>
